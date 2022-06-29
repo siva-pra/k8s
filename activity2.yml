@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
     - name: activity2
-      image: mysql
+      image: mysql:8
       ports:
         - containerPort: 3306
           protocol: TCP
