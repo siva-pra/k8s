@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: excersice
+spec:
+  containers:
+    - name: excersice
+      image: alpine
+      args:
+        - sleep
+        - 1d
+          
