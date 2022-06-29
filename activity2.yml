@@ -1,0 +1,19 @@
+kind: Pod
+metadata:
+  name: activity2
+spec:
+  containers:
+    - name: activity2
+      image: mysql
+      ports:
+        - containerPort: 3306
+          protocol: TCP
+      env:
+        - name: MYSQL_ROOT_PASSWORD
+          value: mysql123
+        - name: MYSQL_DATABASE
+          value: mysqldb 
+        - name: MYSQL_USER
+          value: mysql 
+        - name: MYSQL_PASSWORD
+          value: mysql
